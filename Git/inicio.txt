@@ -1,0 +1,23 @@
+dirección de git
+
+C:\Users\gusta\AppData\Roaming\SPB_16.6\.git
+
+
+Crear repositorio y asociarlo con el de GitHub
+
+gusta@DESKTOP-FMGITGE MINGW64 ~
+
+$ git init
+Initialized empty Git repository in C:/Users/gusta/AppData/Roaming/SPB_16.6/.git/
+
+gusta@DESKTOP-FMGITGE MINGW64 ~ (master)
+$ git config user.name "ilCapitano999"
+
+gusta@DESKTOP-FMGITGE MINGW64 ~ (master)
+$ git config user.email "gustavo_19sao@hotmail.com"
+
+gusta@DESKTOP-FMGITGE MINGW64 ~ (master)
+$ git remote add origin https://github.com/ilCapitano999/mifirst.git
+
+gusta@DESKTOP-FMGITGE MINGW64 ~ (master)
+$
