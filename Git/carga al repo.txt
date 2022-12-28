@@ -1,0 +1,98 @@
+entrar por consola al directorio que necesito
+
+gusta@DESKTOP-FMGITGE MINGW64 /C/users/gusta/AppData/Roaming
+$ cd S
+SPB_16.6/     Skype/        Sublime Text/ Sun/
+
+gusta@DESKTOP-FMGITGE MINGW64 /C/users/gusta/AppData/Roaming
+$ cd SPB_16.6/
+
+gusta@DESKTOP-FMGITGE MINGW64 /C/users/gusta/AppData/Roaming/SPB_16.6 (master)
+$ ls
+cdssetup/  hpeesof/  octave/
+
+gusta@DESKTOP-FMGITGE MINGW64 /C/users/gusta/AppData/Roaming/SPB_16.6 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .dia/
+        .octave_hist
+        .octave_packages
+        .rnd
+        cdssetup/
+        hpeesof/
+        octave/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+gusta@DESKTOP-FMGITGE MINGW64 /C/users/gusta/AppData/Roaming/SPB_16.6 (master)
+$ ls
+Git/  cdssetup/  hpeesof/  octave/
+
+
+ACA TENGO LA CARPETA Y ADENTRO TENGO EL ELEMENTO QUE QUIERO CARGAR
+gusta@DESKTOP-FMGITGE MINGW64 /C/users/gusta/AppData/Roaming/SPB_16.6 (master)
+$ cd Git/
+
+gusta@DESKTOP-FMGITGE MINGW64 /C/users/gusta/AppData/Roaming/SPB_16.6/Git (master)
+$ ls
+inicio.txt
+
+
+ASI SE CARGA
+gusta@DESKTOP-FMGITGE MINGW64 /C/users/gusta/AppData/Roaming/SPB_16.6/Git (master)
+$ git add inicio.txt
+
+gusta@DESKTOP-FMGITGE MINGW64 /C/users/gusta/AppData/Roaming/SPB_16.6/Git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   inicio.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../.dia/
+        ../.octave_hist
+        ../.octave_packages
+        ../.rnd
+        ../cdssetup/
+        ../hpeesof/
+        ../octave/
+
+ASI CONFIRMO QUE LO QUIERO CARGAR
+
+gusta@DESKTOP-FMGITGE MINGW64 /C/users/gusta/AppData/Roaming/SPB_16.6/Git (master)
+$ git commit -m "seguro primero"
+[master (root-commit) e11c40e] seguro primero
+ 1 file changed, 23 insertions(+)
+ create mode 100644 Git/inicio.txt
+
+
+ASI ME CONFIRMA QUE SE CARGO
+
+gusta@DESKTOP-FMGITGE MINGW64 /C/users/gusta/AppData/Roaming/SPB_16.6/Git (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 548 bytes | 548.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/ilCapitano999/mifirst/pull/new/master
+remote:
+To https://github.com/ilCapitano999/mifirst.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+gusta@DESKTOP-FMGITGE MINGW64 /C/users/gusta/AppData/Roaming/SPB_16.6/Git (master)
+$
